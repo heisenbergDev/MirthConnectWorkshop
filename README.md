@@ -10,3 +10,4 @@ This repository will try to gather experiences and developments around this tool
  * Mirth Connect website can be found [here](https://www.mirth.com).
  * Mirth Connect source code [SVN repo](https://svn.mirthcorp.com/connect/).
  * Developing [Mirth Connect with Eclipse](http://www.mirthcorp.com/community/wiki/display/mirth/Developing+Mirth+Connect+in+Eclipse).
+ * Mirt connect [installation and configuration process](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/mirthConnectInstallation/README.md).
