@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Mirth Connect is a powerful healthcare integration engine, based on an Open Source model and successfully deployed in numerous institutions worldwide.
+Mirth Connect is a powerful open source healthcare integration engine successfully deployed in numerous institutions worldwide.
 This repository will try to gather experiences and developments around this tool to share with anyone who is interested in using Mirth Connect.
 
 ## References

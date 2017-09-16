@@ -7,4 +7,6 @@ Mirth Connect could be installed in a wide variaty of platforms (Windows, Linux,
 ## Installing basic standalone Mirth Connect Server
 
  1. Get a physical or virtual machine with Centos 7 64bit. Be sure it's updated:
-  * `yum update`
+  * `sudo yum update`
+ 2. Installing Java:
+  * Bear in mind that only Oracle JRE is supported. Using last Java version is recommended.
