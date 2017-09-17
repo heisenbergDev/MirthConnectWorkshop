@@ -137,7 +137,7 @@ This example uses Centos 7 64bit distro and PostgreSQL, but it can be applied to
         -Dapple.awt.UIElement=true
         ```
 
- Restart the server (after all this changes to load new configuration parameters):
+ 4. Restart the server (after all this changes to load new configuration parameters):
     * To restart all the server: `sudo restart` (recommended).
     * To restart only Postgresql service: `sudo systemctl restart postgresql`.
     * To restart only Mirth Connect: `sudo systemctl restart mcservice`.
