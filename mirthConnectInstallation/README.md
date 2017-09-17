@@ -12,8 +12,9 @@ This example uses Centos 7 64bit distro and PostgreSQL, but it can be applied to
 ### Install base software
 
  1. Get a physical or virtual machine with Centos 7 64bit installed on it:
-  * For performance and security reasons, it's highly recommended to install a minimal linux distribution, adding only the services that are needed.
+  * For performance and security reasons, it's highly recommended to install a minimal linux distribution, adding only the services that are really needed.
   * SSH service could be needed for remote server access.
+  * Creating a non-superuser user to run Mirth Connect is recommended (you can do it in installation process. e.g. mirth). This user could have "sudoer" privileges to simplify installation and configuration process (instead of using root). `visudo` command can do the trick.
   * After installing, update the server: `sudo yum update`.
 
  2. Installing Java:
@@ -57,3 +58,10 @@ This example uses Centos 7 64bit distro and PostgreSQL, but it can be applied to
 
  4. Install Mirth Connect:
   * Download last Mirth Connect version from [here](https://www.mirth.com/Downloads). For RedHat/Centos based distributions, the Linux rpm package file can be used.
+  * Install RPM Mirth connect package with a command like this:
+      * `sudo rpm -Uvh mirthconnect-3.5.0.8232.b2153-linux.rpm`
+  * After this, a new Mirth Connect instance is available in /opt/mirthconnect folder; but it's not ready to work (we want to use it with PostgreSQL database, not default Apache Derby database; and we want to configure it as a "systemd service to improve its management).
+
+### Configuring Mirth Connect instance
+
+ 1. Creating Mirth database:
