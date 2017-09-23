@@ -13,13 +13,14 @@ This example uses Centos 7 64bit distro and PostgreSQL, but it can be applied to
 
  1. Get a physical or virtual machine with Centos 7 64bit installed on it:
   * For performance and security reasons, it's highly recommended to install a minimal linux distribution, adding only the services that are really needed.
+  * As other servers, static IP and DNS domain name shall be needed.
+  * Enable/disable Mirth Connect server firewall is a decision to be considered (it will depend of the organization's security policies and restrictions).
   * SSH service could be needed for remote server access.
   * Creating a non-superuser user to run Mirth Connect is recommended (you can do it in installation process. e.g. mirth). This user could have "sudoer" privileges to simplify installation and configuration process (instead of using root). `visudo` command can do the trick.
   * After installing, update the server: `sudo yum update`.
 
  2. Installing Java:
-  * Bear in mind that only Oracle JRE is supported. Using last Java version is recommended.
-  * Download last Java JRE available [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html):
+  * Last Oracle JRE version is recommended; you can download it from [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html):
       * For RedHat/Centos based distributions, the Linux rpm package file can be used.
   * Install the downloaded rpm package: e.g. `sudo rpm -Uvh jre-8u144-linux-x64.rpm`.
   * You can check the installed Java version:
