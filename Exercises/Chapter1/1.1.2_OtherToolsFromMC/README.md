@@ -19,3 +19,4 @@ Here we will try to use external libraries and tools from Mirth Connect channels
 
 ## Final items:
   * Exercise example channel [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Exercises/Chapter1/1.1.2_OtherToolsFromMC/112_exerciseChannel.xml).
+  * More info [here](http://www.mirthcorp.com/community/wiki/display/mirth/How+to+create+and+invoke+custom+Java+code+in+Mirth+Connect).
