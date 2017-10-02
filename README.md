@@ -7,7 +7,16 @@ This repository will try to gather experiences and developments around this tool
 
 ## References
 
- * Mirth Connect website can be found [here](https://www.mirth.com).
- * Mirth Connect source code [SVN repo](https://svn.mirthcorp.com/connect/).
- * Developing [Mirth Connect with Eclipse](http://www.mirthcorp.com/community/wiki/display/mirth/Developing+Mirth+Connect+in+Eclipse).
- * Mirth Connect [installation, configuration & tuneup process](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/mirthConnectInstallation/README.md).
+__Websites__
+  * Mirth Connect website can be found [here](https://www.mirth.com).
+  * Developing [Mirth Connect with Eclipse](http://www.mirthcorp.com/community/wiki/display/mirth/Developing+Mirth+Connect+in+Eclipse).
+
+__Software__
+  * Mirth Connect binaries [downloads](https://www.mirth.com/Downloads).
+  * Mirth Connect source code [SVN repo](https://svn.mirthcorp.com/connect/).
+
+__Documentation and guides__
+  * Mirth Connect [installation, configuration & tuneup process](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/mirthConnectInstallation/README.md).
+  * Mirth Connect [upgrade process](http://www.mirthcorp.com/community/wiki/display/mirth/Mirth+Connect+Upgrade+Guide).
+  * Mirth Connect manual (3.5) can be downloaded [here](https://bridge.nextgen.com/media/3244/mirth-data-sheet-mirth-connect-3-5-user-guide.pdf) and [(v3.5) here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/mirth-data-sheet-mirth-connect-3-5-user-guide.pdf)
+  * ECMAScript for XML (E4X) Specification can be found [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/Ecma-357.pdf).
