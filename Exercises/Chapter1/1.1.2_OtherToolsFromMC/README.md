@@ -20,3 +20,6 @@ Here we will try to use external libraries and tools from Mirth Connect channels
 ## Final items:
   * Exercise example channel [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Exercises/Chapter1/1.1.2_OtherToolsFromMC/112_exerciseChannel.xml).
   * More info [here](http://www.mirthcorp.com/community/wiki/display/mirth/How+to+create+and+invoke+custom+Java+code+in+Mirth+Connect).
+
+## 1.1.2 Mirth Connect server backup:
+  * An example of Mirth Server configuration backup can be found [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Exercises/Chapter1/1.1.2_OtherToolsFromMC/MC_server_backup/2017-10-03%20Mirth_Backup_Example.xml).

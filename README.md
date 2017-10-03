@@ -20,3 +20,5 @@ __Documentation and guides__
   * Mirth Connect [upgrade process](http://www.mirthcorp.com/community/wiki/display/mirth/Mirth+Connect+Upgrade+Guide).
   * Mirth Connect manual (3.5) can be downloaded [here](https://bridge.nextgen.com/media/3244/mirth-data-sheet-mirth-connect-3-5-user-guide.pdf) and [(v3.5) here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/mirth-data-sheet-mirth-connect-3-5-user-guide.pdf)
   * ECMAScript for XML (E4X) Specification can be found [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/Ecma-357.pdf).
+  * Mirth Connect appliance deployment guide v3.11 [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/MirthApplianceDeploymentGuide3_11.pdf).
+  * Mirth Connect solutions info [here] (https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/nextgen-healthcare-data-sheet-deployment-options-fl27.pdf)
