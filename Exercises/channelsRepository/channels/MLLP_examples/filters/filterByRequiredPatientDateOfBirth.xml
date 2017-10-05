@@ -1,0 +1,15 @@
+<filter version="3.5.1">
+  <elements>
+    <com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
+      <name>Filter By Required Patient Date Of Birth</name>
+      <sequenceNumber>0</sequenceNumber>
+      <script>var patientName = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
+
+if (patientName.length == 0) {
+	return false;
+} else {
+	return true;
+}</script>
+    </com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
+  </elements>
+</filter>
