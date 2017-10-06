@@ -13,7 +13,7 @@
       <nextMetaDataId>3</nextMetaDataId>
       <name>in_hisReceiver_2</name>
       <description></description>
-      <revision>9</revision>
+      <revision>10</revision>
       <sourceConnector version="3.5.1">
         <metaDataId>0</metaDataId>
         <name>sourceConnector</name>
@@ -275,9 +275,9 @@
               <com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
                 <name>Filter By Required Patient Date Of Birth</name>
                 <sequenceNumber>0</sequenceNumber>
-                <script>var patientName = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
+                <script>var patientDOB = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
 
-if (patientName.length == 0) {
+if (patientDOB.length == 0) {
 	return false;
 } else {
 	return true;
@@ -487,7 +487,7 @@ return;</undeployScript>
         <metadata>
           <enabled>false</enabled>
           <lastModified>
-            <time>1507196859596</time>
+            <time>1507273348110</time>
             <timezone>Europe/Paris</timezone>
           </lastModified>
           <pruningSettings>
@@ -501,7 +501,7 @@ return;</undeployScript>
       <nextMetaDataId>2</nextMetaDataId>
       <name>in_hisReceiver_1</name>
       <description></description>
-      <revision>9</revision>
+      <revision>10</revision>
       <sourceConnector version="3.5.1">
         <metaDataId>0</metaDataId>
         <name>sourceConnector</name>
@@ -765,9 +765,9 @@ return;</undeployScript>
               <com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
                 <name>Filter By Required Patient Date Of Birth</name>
                 <sequenceNumber>0</sequenceNumber>
-                <script>var patientName = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
+                <script>var patientDOB = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
 
-if (patientName.length == 0) {
+if (patientDOB.length == 0) {
 	return false;
 } else {
 	return true;
@@ -828,7 +828,7 @@ return;</undeployScript>
         <metadata>
           <enabled>false</enabled>
           <lastModified>
-            <time>1507198274822</time>
+            <time>1507273335049</time>
             <timezone>Europe/Paris</timezone>
           </lastModified>
           <pruningSettings>
@@ -842,7 +842,7 @@ return;</undeployScript>
       <nextMetaDataId>2</nextMetaDataId>
       <name>in_hisReceiver_0</name>
       <description></description>
-      <revision>1</revision>
+      <revision>2</revision>
       <sourceConnector version="3.5.1">
         <metaDataId>0</metaDataId>
         <name>sourceConnector</name>
@@ -953,9 +953,9 @@ return;</undeployScript>
             <com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
               <name>Filter By Required Patient Date Of Birth</name>
               <sequenceNumber>0</sequenceNumber>
-              <script>var patientName = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
+              <script>var patientDOB = &apos;&apos; + msg[&apos;PID&apos;][&apos;PID.7&apos;].toString();
 
-if (patientName.length == 0) {
+if (patientDOB.length == 0) {
 	return false;
 } else {
 	return true;
@@ -1166,7 +1166,7 @@ return;</undeployScript>
         <metadata>
           <enabled>true</enabled>
           <lastModified>
-            <time>1507198356491</time>
+            <time>1507273306627</time>
             <timezone>Europe/Paris</timezone>
           </lastModified>
           <pruningSettings>
