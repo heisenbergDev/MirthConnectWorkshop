@@ -26,3 +26,6 @@ __Documentation and guides__
   * ECMAScript for XML (E4X) Specification can be found [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/Ecma-357.pdf).
   * Mirth Connect appliance deployment guide v3.11 [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/MirthApplianceDeploymentGuide3_11.pdf).
   * Mirth Connect solutions info [here](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/nextgen-healthcare-data-sheet-deployment-options-fl27.pdf)
+
+__Training and Certification__
+  * Please, visit NextGen website for more information: https://www.nextgen.com/Interoperability/Mirth-Solutions/Training
