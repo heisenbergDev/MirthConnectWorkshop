@@ -5,6 +5,10 @@
 Mirth Connect is a powerful open source healthcare integration engine successfully deployed in numerous institutions worldwide.
 This repository will try to gather experiences and developments around this tool to share with anyone who is interested in using Mirth Connect.
 
+## Presentation
+
+  * Slide deck about this workshop can be found [here (spanish version, part 1)](https://github.com/heisenbergDev/MirthConnectWorkshop/blob/master/Documentation/2017_MirthConnectWorkshop.pptx).
+
 ## References
 
 __Websites__
