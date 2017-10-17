@@ -1,0 +1,43 @@
+<alertModel version="3.5.1">
+  <id>d3bc1872-16ee-42ee-9d36-7de548f68814</id>
+  <name>ERROR_1</name>
+  <enabled>true</enabled>
+  <trigger class="defaultTrigger" version="3.5.1">
+    <alertChannels version="3.5.1">
+      <newChannelSource>false</newChannelSource>
+      <newChannelDestination>false</newChannelDestination>
+      <enabledChannels>
+        <string>b5770b38-d9d9-4f44-af1b-1675f3cf1c5f</string>
+      </enabledChannels>
+      <disabledChannels/>
+      <partialChannels/>
+    </alertChannels>
+    <errorEventTypes>
+      <errorEventType>ANY</errorEventType>
+    </errorEventTypes>
+    <regex></regex>
+  </trigger>
+  <actionGroups>
+    <alertActionGroup version="3.5.1">
+      <actions>
+        <alertAction version="3.5.1">
+          <protocol>User</protocol>
+          <recipient>1</recipient>
+        </alertAction>
+      </actions>
+      <subject>Error en canal 5_2_2_RX_DICOM_HL7</subject>
+      <template>Ha ocurrido un error en el canal ${channelName}
+MensajeID: ${messageId}
+
+Error:
+---
+${error}
+---
+${errorType}
+---
+${errorMessage}
+---</template>
+    </alertActionGroup>
+  </actionGroups>
+  <properties/>
+</alertModel>
