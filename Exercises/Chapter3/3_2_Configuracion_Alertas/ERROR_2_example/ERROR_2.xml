@@ -1,0 +1,55 @@
+<alertModel version="3.5.1">
+  <id>fd3c82de-dd6b-4ffb-a65a-a2be87bf8eaa</id>
+  <name>ERROR_2</name>
+  <enabled>true</enabled>
+  <trigger class="defaultTrigger" version="3.5.1">
+    <alertChannels version="3.5.1">
+      <newChannelSource>false</newChannelSource>
+      <newChannelDestination>false</newChannelDestination>
+      <enabledChannels/>
+      <disabledChannels/>
+      <partialChannels>
+        <entry>
+          <string>5478458d-d038-495e-b651-fa6cd57af6ac</string>
+          <alertConnectors>
+            <enabledConnectors>
+              <int>1</int>
+              <int>4</int>
+            </enabledConnectors>
+            <disabledConnectors>
+              <int>0</int>
+              <null/>
+            </disabledConnectors>
+          </alertConnectors>
+        </entry>
+      </partialChannels>
+    </alertChannels>
+    <errorEventTypes>
+      <errorEventType>ANY</errorEventType>
+    </errorEventTypes>
+    <regex></regex>
+  </trigger>
+  <actionGroups>
+    <alertActionGroup version="3.5.1">
+      <actions>
+        <alertAction version="3.5.1">
+          <protocol>User</protocol>
+          <recipient>1</recipient>
+        </alertAction>
+      </actions>
+      <subject>Mirth error [${errorType}]: canal ${channelName} ; conector ${connectorName}.</subject>
+      <template>Ha ocurrido un error en el canal [${channelName}], conector [${connectorName}].
+MensajeID: ${messageId}
+
+Error:
+---
+${error}
+---
+${errorType}
+---
+${errorMessage}
+---</template>
+    </alertActionGroup>
+  </actionGroups>
+  <properties/>
+</alertModel>
