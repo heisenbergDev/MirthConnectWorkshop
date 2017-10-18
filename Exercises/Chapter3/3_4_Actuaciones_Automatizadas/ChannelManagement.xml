@@ -1,0 +1,55 @@
+<codeTemplate version="3.5.1">
+  <id>7d9ff782-f5e2-4d11-9984-990e22212a1c</id>
+  <name>ChannelManagement</name>
+  <revision>3</revision>
+  <lastModified>
+    <time>1508317226473</time>
+    <timezone>Europe/Madrid</timezone>
+  </lastModified>
+  <contextSet>
+    <delegate>
+      <contextType>GLOBAL_PREPROCESSOR</contextType>
+      <contextType>CHANNEL_POSTPROCESSOR</contextType>
+      <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+      <contextType>CHANNEL_UNDEPLOY</contextType>
+      <contextType>CHANNEL_ATTACHMENT</contextType>
+      <contextType>CHANNEL_BATCH</contextType>
+      <contextType>CHANNEL_DEPLOY</contextType>
+      <contextType>GLOBAL_UNDEPLOY</contextType>
+      <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+      <contextType>GLOBAL_POSTPROCESSOR</contextType>
+      <contextType>CHANNEL_PREPROCESSOR</contextType>
+      <contextType>SOURCE_RECEIVER</contextType>
+      <contextType>GLOBAL_DEPLOY</contextType>
+      <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+      <contextType>DESTINATION_DISPATCHER</contextType>
+    </delegate>
+  </contextSet>
+  <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+    <type>FUNCTION</type>
+    <code>/**
+	Function stopChannelIfError
+
+	@param chId Channel Identificator of the channel to stop if error. 
+	@return void
+*/
+function stopChannelIfError(chId){
+    stopChannelIfSeveralErrors(chId, 0);
+}
+
+/**
+	Function stopChannelIfSeveralErrors
+
+	@param chId Channel Identificator of the channel to stop if have some errors. 
+	@param numberErrors Number of errors that force to stop the channel. 
+	@return void
+*/
+
+function stopChannelIfSeveralErrors(chId, numberErrors){
+    if (ChannelUtil.getErrorCount(chId) &gt; numberErrors) {
+        logger.info(&apos;Stopping channel &quot;&apos; + ChannelUtil.getChannelName(chId) + &apos;&quot; due to error count &gt; &apos; + numberErrors);
+        ChannelUtil.stopChannel(chId);
+    }
+}</code>
+  </properties>
+</codeTemplate>
